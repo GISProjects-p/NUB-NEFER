@@ -1,0 +1,10 @@
+{
+  "heroVideo": "assets/video_coin.mp4",
+  "heroPoster": "assets/coin.png",
+  "historyImage": "assets/coin.png",
+  "significanceImage": "assets/coin.png",
+  "obverseImage": "assets/coin-front.png",
+  "reverseImage": "assets/coin-back.png",
+  "endingImage": "assets/coin.png",
+  "qrImage": "assets/qrcode.png"
+}

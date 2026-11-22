@@ -1,0 +1,656 @@
+media:
+  input: assets
+  output: assets
+content:
+  - name: texts
+    label: Page texts (4 languages)
+    type: file
+    path: content/texts.json
+    format: json
+    fields:
+      - name: en
+        label: "English"
+        type: object
+        fields:
+          - name: navStory
+            label: "Nav story"
+            type: string
+          - name: navObverse
+            label: "Nav obverse"
+            type: string
+          - name: navReverse
+            label: "Nav reverse"
+            type: string
+          - name: navMap
+            label: "Nav map"
+            type: string
+          - name: heroEyebrow
+            label: "Hero eyebrow"
+            type: string
+          - name: heroSubtitle
+            label: "Hero subtitle"
+            type: string
+          - name: scrollExplore
+            label: "Scroll explore"
+            type: string
+          - name: historyKicker
+            label: "History kicker"
+            type: string
+          - name: historyEyebrow
+            label: "History eyebrow"
+            type: string
+          - name: historyTitle
+            label: "History title"
+            type: text
+          - name: historyText
+            label: "History text"
+            type: text
+          - name: rulerLabel
+            label: "Ruler label"
+            type: string
+          - name: rulerValue
+            label: "Ruler value"
+            type: string
+          - name: dateLabel
+            label: "Date label"
+            type: string
+          - name: dateValue
+            label: "Date value"
+            type: string
+          - name: coinCaption
+            label: "Coin caption"
+            type: string
+          - name: significanceKicker
+            label: "Significance kicker"
+            type: string
+          - name: significanceEyebrow
+            label: "Significance eyebrow"
+            type: string
+          - name: significanceTitle
+            label: "Significance title"
+            type: string
+          - name: significanceText
+            label: "Significance text"
+            type: text
+          - name: obverseKicker
+            label: "Obverse kicker"
+            type: string
+          - name: obverseEyebrow
+            label: "Obverse eyebrow"
+            type: string
+          - name: obverseTitle
+            label: "Obverse title"
+            type: string
+          - name: obverseText
+            label: "Obverse text"
+            type: text
+          - name: reverseKicker
+            label: "Reverse kicker"
+            type: string
+          - name: reverseEyebrow
+            label: "Reverse eyebrow"
+            type: string
+          - name: reverseTitle
+            label: "Reverse title"
+            type: string
+          - name: reverseText
+            label: "Reverse text"
+            type: text
+          - name: symbolOneTitle
+            label: "Symbol one title"
+            type: string
+          - name: symbolOneText
+            label: "Symbol one text"
+            type: string
+          - name: symbolTwoTitle
+            label: "Symbol two title"
+            type: string
+          - name: symbolTwoText
+            label: "Symbol two text"
+            type: string
+          - name: endingEyebrow
+            label: "Ending eyebrow"
+            type: string
+          - name: endingText
+            label: "Ending text"
+            type: text
+          - name: backTop
+            label: "Back top"
+            type: string
+          - name: footerText
+            label: "Footer text"
+            type: string
+          - name: chartKicker
+            label: "Chart kicker"
+            type: string
+          - name: chartEyebrow
+            label: "Chart eyebrow"
+            type: string
+          - name: chartTitle
+            label: "Chart title"
+            type: string
+          - name: chartText
+            label: "Chart text"
+            type: text
+          - name: contAfrica
+            label: "Cont africa"
+            type: string
+          - name: contEurope
+            label: "Cont europe"
+            type: string
+          - name: contNorthAmerica
+            label: "Cont north america"
+            type: string
+          - name: contAsia
+            label: "Cont asia"
+            type: string
+          - name: credit1
+            label: "Credit1"
+            type: string
+          - name: credit2
+            label: "Credit2"
+            type: string
+          - name: heroHeading
+            label: "Hero heading"
+            type: text
+          - name: horseTitle
+            label: "Horse title"
+            type: string
+          - name: horseText
+            label: "Horse text"
+            type: string
+          - name: qrCaption
+            label: "Qr caption"
+            type: string
+      - name: fr
+        label: "Français"
+        type: object
+        fields:
+          - name: navStory
+            label: "Nav story"
+            type: string
+          - name: navObverse
+            label: "Nav obverse"
+            type: string
+          - name: navReverse
+            label: "Nav reverse"
+            type: string
+          - name: navMap
+            label: "Nav map"
+            type: string
+          - name: heroEyebrow
+            label: "Hero eyebrow"
+            type: string
+          - name: heroSubtitle
+            label: "Hero subtitle"
+            type: text
+          - name: scrollExplore
+            label: "Scroll explore"
+            type: string
+          - name: historyKicker
+            label: "History kicker"
+            type: string
+          - name: historyEyebrow
+            label: "History eyebrow"
+            type: string
+          - name: historyTitle
+            label: "History title"
+            type: text
+          - name: historyText
+            label: "History text"
+            type: text
+          - name: rulerLabel
+            label: "Ruler label"
+            type: string
+          - name: rulerValue
+            label: "Ruler value"
+            type: string
+          - name: dateLabel
+            label: "Date label"
+            type: string
+          - name: dateValue
+            label: "Date value"
+            type: string
+          - name: coinCaption
+            label: "Coin caption"
+            type: string
+          - name: significanceKicker
+            label: "Significance kicker"
+            type: string
+          - name: significanceEyebrow
+            label: "Significance eyebrow"
+            type: string
+          - name: significanceTitle
+            label: "Significance title"
+            type: string
+          - name: significanceText
+            label: "Significance text"
+            type: text
+          - name: obverseKicker
+            label: "Obverse kicker"
+            type: string
+          - name: obverseEyebrow
+            label: "Obverse eyebrow"
+            type: string
+          - name: obverseTitle
+            label: "Obverse title"
+            type: string
+          - name: obverseText
+            label: "Obverse text"
+            type: text
+          - name: reverseKicker
+            label: "Reverse kicker"
+            type: string
+          - name: reverseEyebrow
+            label: "Reverse eyebrow"
+            type: string
+          - name: reverseTitle
+            label: "Reverse title"
+            type: string
+          - name: reverseText
+            label: "Reverse text"
+            type: text
+          - name: symbolOneTitle
+            label: "Symbol one title"
+            type: string
+          - name: symbolOneText
+            label: "Symbol one text"
+            type: string
+          - name: symbolTwoTitle
+            label: "Symbol two title"
+            type: string
+          - name: symbolTwoText
+            label: "Symbol two text"
+            type: string
+          - name: endingEyebrow
+            label: "Ending eyebrow"
+            type: string
+          - name: endingText
+            label: "Ending text"
+            type: text
+          - name: backTop
+            label: "Back top"
+            type: string
+          - name: footerText
+            label: "Footer text"
+            type: string
+          - name: chartKicker
+            label: "Chart kicker"
+            type: string
+          - name: chartEyebrow
+            label: "Chart eyebrow"
+            type: string
+          - name: chartTitle
+            label: "Chart title"
+            type: string
+          - name: chartText
+            label: "Chart text"
+            type: text
+          - name: contAfrica
+            label: "Cont africa"
+            type: string
+          - name: contEurope
+            label: "Cont europe"
+            type: string
+          - name: contNorthAmerica
+            label: "Cont north america"
+            type: string
+          - name: contAsia
+            label: "Cont asia"
+            type: string
+          - name: credit1
+            label: "Credit1"
+            type: string
+          - name: credit2
+            label: "Credit2"
+            type: string
+          - name: heroHeading
+            label: "Hero heading"
+            type: text
+          - name: horseTitle
+            label: "Horse title"
+            type: string
+          - name: horseText
+            label: "Horse text"
+            type: string
+          - name: qrCaption
+            label: "Qr caption"
+            type: string
+      - name: de
+        label: "Deutsch"
+        type: object
+        fields:
+          - name: navStory
+            label: "Nav story"
+            type: string
+          - name: navObverse
+            label: "Nav obverse"
+            type: string
+          - name: navReverse
+            label: "Nav reverse"
+            type: string
+          - name: navMap
+            label: "Nav map"
+            type: string
+          - name: heroEyebrow
+            label: "Hero eyebrow"
+            type: string
+          - name: heroSubtitle
+            label: "Hero subtitle"
+            type: string
+          - name: scrollExplore
+            label: "Scroll explore"
+            type: string
+          - name: historyKicker
+            label: "History kicker"
+            type: string
+          - name: historyEyebrow
+            label: "History eyebrow"
+            type: string
+          - name: historyTitle
+            label: "History title"
+            type: text
+          - name: historyText
+            label: "History text"
+            type: text
+          - name: rulerLabel
+            label: "Ruler label"
+            type: string
+          - name: rulerValue
+            label: "Ruler value"
+            type: string
+          - name: dateLabel
+            label: "Date label"
+            type: string
+          - name: dateValue
+            label: "Date value"
+            type: string
+          - name: coinCaption
+            label: "Coin caption"
+            type: string
+          - name: significanceKicker
+            label: "Significance kicker"
+            type: string
+          - name: significanceEyebrow
+            label: "Significance eyebrow"
+            type: string
+          - name: significanceTitle
+            label: "Significance title"
+            type: string
+          - name: significanceText
+            label: "Significance text"
+            type: text
+          - name: obverseKicker
+            label: "Obverse kicker"
+            type: string
+          - name: obverseEyebrow
+            label: "Obverse eyebrow"
+            type: string
+          - name: obverseTitle
+            label: "Obverse title"
+            type: string
+          - name: obverseText
+            label: "Obverse text"
+            type: text
+          - name: reverseKicker
+            label: "Reverse kicker"
+            type: string
+          - name: reverseEyebrow
+            label: "Reverse eyebrow"
+            type: string
+          - name: reverseTitle
+            label: "Reverse title"
+            type: string
+          - name: reverseText
+            label: "Reverse text"
+            type: text
+          - name: symbolOneTitle
+            label: "Symbol one title"
+            type: string
+          - name: symbolOneText
+            label: "Symbol one text"
+            type: string
+          - name: symbolTwoTitle
+            label: "Symbol two title"
+            type: string
+          - name: symbolTwoText
+            label: "Symbol two text"
+            type: string
+          - name: endingEyebrow
+            label: "Ending eyebrow"
+            type: string
+          - name: endingText
+            label: "Ending text"
+            type: text
+          - name: backTop
+            label: "Back top"
+            type: string
+          - name: footerText
+            label: "Footer text"
+            type: string
+          - name: chartKicker
+            label: "Chart kicker"
+            type: string
+          - name: chartEyebrow
+            label: "Chart eyebrow"
+            type: string
+          - name: chartTitle
+            label: "Chart title"
+            type: string
+          - name: chartText
+            label: "Chart text"
+            type: text
+          - name: contAfrica
+            label: "Cont africa"
+            type: string
+          - name: contEurope
+            label: "Cont europe"
+            type: string
+          - name: contNorthAmerica
+            label: "Cont north america"
+            type: string
+          - name: contAsia
+            label: "Cont asia"
+            type: string
+          - name: credit1
+            label: "Credit1"
+            type: string
+          - name: credit2
+            label: "Credit2"
+            type: string
+          - name: heroHeading
+            label: "Hero heading"
+            type: text
+          - name: horseTitle
+            label: "Horse title"
+            type: string
+          - name: horseText
+            label: "Horse text"
+            type: string
+          - name: qrCaption
+            label: "Qr caption"
+            type: string
+      - name: ar
+        label: "العربية"
+        type: object
+        fields:
+          - name: navStory
+            label: "Nav story"
+            type: string
+          - name: navObverse
+            label: "Nav obverse"
+            type: string
+          - name: navReverse
+            label: "Nav reverse"
+            type: string
+          - name: navMap
+            label: "Nav map"
+            type: string
+          - name: heroEyebrow
+            label: "Hero eyebrow"
+            type: string
+          - name: heroSubtitle
+            label: "Hero subtitle"
+            type: string
+          - name: scrollExplore
+            label: "Scroll explore"
+            type: string
+          - name: historyKicker
+            label: "History kicker"
+            type: string
+          - name: historyEyebrow
+            label: "History eyebrow"
+            type: string
+          - name: historyTitle
+            label: "History title"
+            type: text
+          - name: historyText
+            label: "History text"
+            type: text
+          - name: rulerLabel
+            label: "Ruler label"
+            type: string
+          - name: rulerValue
+            label: "Ruler value"
+            type: string
+          - name: dateLabel
+            label: "Date label"
+            type: string
+          - name: dateValue
+            label: "Date value"
+            type: string
+          - name: coinCaption
+            label: "Coin caption"
+            type: string
+          - name: significanceKicker
+            label: "Significance kicker"
+            type: string
+          - name: significanceEyebrow
+            label: "Significance eyebrow"
+            type: string
+          - name: significanceTitle
+            label: "Significance title"
+            type: string
+          - name: significanceText
+            label: "Significance text"
+            type: text
+          - name: obverseKicker
+            label: "Obverse kicker"
+            type: string
+          - name: obverseEyebrow
+            label: "Obverse eyebrow"
+            type: string
+          - name: obverseTitle
+            label: "Obverse title"
+            type: string
+          - name: obverseText
+            label: "Obverse text"
+            type: text
+          - name: reverseKicker
+            label: "Reverse kicker"
+            type: string
+          - name: reverseEyebrow
+            label: "Reverse eyebrow"
+            type: string
+          - name: reverseTitle
+            label: "Reverse title"
+            type: string
+          - name: reverseText
+            label: "Reverse text"
+            type: text
+          - name: symbolOneTitle
+            label: "Symbol one title"
+            type: string
+          - name: symbolOneText
+            label: "Symbol one text"
+            type: string
+          - name: symbolTwoTitle
+            label: "Symbol two title"
+            type: string
+          - name: symbolTwoText
+            label: "Symbol two text"
+            type: string
+          - name: endingEyebrow
+            label: "Ending eyebrow"
+            type: string
+          - name: endingText
+            label: "Ending text"
+            type: string
+          - name: backTop
+            label: "Back top"
+            type: string
+          - name: footerText
+            label: "Footer text"
+            type: string
+          - name: chartKicker
+            label: "Chart kicker"
+            type: string
+          - name: chartEyebrow
+            label: "Chart eyebrow"
+            type: string
+          - name: chartTitle
+            label: "Chart title"
+            type: string
+          - name: chartText
+            label: "Chart text"
+            type: string
+          - name: contAfrica
+            label: "Cont africa"
+            type: string
+          - name: contEurope
+            label: "Cont europe"
+            type: string
+          - name: contNorthAmerica
+            label: "Cont north america"
+            type: string
+          - name: contAsia
+            label: "Cont asia"
+            type: string
+          - name: credit1
+            label: "Credit1"
+            type: string
+          - name: credit2
+            label: "Credit2"
+            type: string
+          - name: heroHeading
+            label: "Hero heading"
+            type: text
+          - name: horseTitle
+            label: "Horse title"
+            type: string
+          - name: horseText
+            label: "Horse text"
+            type: string
+          - name: qrCaption
+            label: "Qr caption"
+            type: string
+  - name: images
+    label: Images
+    type: file
+    path: content/images.json
+    format: json
+    fields:
+      - name: heroVideo
+        label: "Hero video (top of page)"
+        type: file
+      - name: heroPoster
+        label: "Hero poster image (shown before the video plays)"
+        type: image
+      - name: historyImage
+        label: "Section 1 – coin image"
+        type: image
+      - name: significanceImage
+        label: "Section 2 – coin image"
+        type: image
+      - name: obverseImage
+        label: "Obverse (front) image"
+        type: image
+      - name: reverseImage
+        label: "Reverse (back) image"
+        type: image
+      - name: endingImage
+        label: "Last section – coin image"
+        type: image
+      - name: qrImage
+        label: "QR code image"
+        type: image
